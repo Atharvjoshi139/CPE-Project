@@ -1,0 +1,83 @@
+/* Reset styles */
+body, h1, h2, ul, li, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header section */
+.header {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    color: #ff4500;
+    font-size: 24px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main content */
+.main {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.updates h2, .latest-events h2, .awards h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.updates marquee {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.latest-events ul, .awards ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.latest-events ul li, .awards ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Footer section */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}

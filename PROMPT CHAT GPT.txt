@@ -1,0 +1,1 @@
+create a website for students marks entry system its interface of entering the marks is like excel and there are 2 modules first is HOD login and second is faculty login, hod will assign the subjects to the faculty. in faculty login the interface like excel is shown to faculty for marks entry and last it generates the pdf of this result

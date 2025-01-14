@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty Marks Entry</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin: 50px auto;
+      width: 80%;
+    }
+    .button {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Marks Entry</h2>
+    <table id="marksTable" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Roll Number</th>
+          <th>Student Name</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Example rows -->
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td contenteditable="true">0</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jane Smith</td>
+          <td contenteditable="true">0</td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="button" onclick="generatePDF()">Generate PDF</button>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      $('#marksTable').DataTable();
+    });
+
+    function generatePDF() {
+      alert('PDF generation code to be implemented!');
+    }
+  </script>
+</body>
+</html>
